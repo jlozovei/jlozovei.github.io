@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier \"{./,tests}/*.js\" --write",
+    "format": "prettier \"./**/*.js\" --write",
     "start": "webpack-dev-server",
     "build": "webpack -p --mode production",
     "postbuild": "cp ./README.md ./public"
