@@ -2,7 +2,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - dev
 jobs:
   release:
     name: Deploy to GitHub Pages
@@ -21,6 +21,7 @@ jobs:
       - name: Push to gh-pages
         uses: crazy-max/ghaction-github-pages@v1.3.0
         with:
+          target_branch: master
           build_dir: public
           keep_history: true
         env:
