@@ -6,7 +6,7 @@ import '../css/reset.css';
 import '../css/index.css';
 
 // modules
-import ListItem from './modules/listItem';
+import ListItem from './modules/ListItem';
 
 (() => {
   const app = {
