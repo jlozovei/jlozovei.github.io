@@ -19,4 +19,4 @@ I'm using [npm](https://npmjs.com/) as the package manager, [GitHub Actions](htt
 
 
 ## :closed_lock_with_key: License
-This repo and its content is licensed under the [GPL-3.0](https://github.com/jlozovei/jlozovei.github.iop/blob/master/LICENSE).
+This repo and its content is licensed under the [GPL-3.0](https://github.com/jlozovei/jlozovei.github.io/blob/dev/LICENSE).
