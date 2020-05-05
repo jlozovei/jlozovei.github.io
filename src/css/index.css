@@ -1,3 +1,8 @@
+:before {
+  display: none;
+  content: '';
+}
+
 body {
   background-color: #040413;
   background-image: linear-gradient(120deg, #040413, #2a052f);
@@ -29,13 +34,21 @@ body {
 }
 
 h1 {
+  position: relative;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 8px solid transparent;
-  border-image: linear-gradient(to right, #feda84, #ff9b83, #976393, #685489, #43457f);
-  border-image-slice: 1;
   font-size: 3rem;
   text-align: center;
+
+  &:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    background-image: linear-gradient(to right, #feda84, #ff9b83, #976393, #685489, #43457f);
+  }
 }
 
 p {
@@ -61,8 +74,6 @@ a {
     position: absolute;
     top: calc(50% - 3rem);
     left: calc(50% - 3rem);
-    display: none;
-    content: '';
     width: 6rem;
     height: 6rem;
     background: url('./thinking.png') no-repeat center/contain;
@@ -134,11 +145,19 @@ footer {
 }
 
 footer {
-  padding: 1rem;
-  border-top: 8px solid transparent;
-  border-image: linear-gradient(to left, #feda84, #ff9b83, #976393, #685489, #43457f);
-  border-image-slice: 1;
+  position: relative;
+  padding: 1.5rem 1rem 1rem;
   font-weight: 700;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    background-image: linear-gradient(to right, #feda84, #ff9b83, #976393, #685489, #43457f);
+  }
 }
 
 /* specific */

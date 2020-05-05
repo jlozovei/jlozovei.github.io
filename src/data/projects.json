@@ -63,7 +63,7 @@
         "A fun website to prove that front-end hasn't ended yet."
       ],
       "tags": [
-        "html", "css"
+        "html", "css", "gh-pages"
       ]
     },
     {
@@ -74,7 +74,7 @@
         "A fun website to prove that front-end hasn't ended yet (in portuguese)."
       ],
       "tags": [
-        "html", "css"
+        "html", "css", "gh-pages"
       ]
     },
     {
@@ -85,7 +85,7 @@
         "A city guessing game with Paraná (a brazilian state) cities."
       ],
       "tags": [
-        "svelte"
+        "svelte", "css", "gh-pages", "gh-actions"
       ]
     },
     {
@@ -96,7 +96,7 @@
         "The opening crawls from all Star Wars episodes built with JavaScript."
       ],
       "tags": [
-        "react"
+        "react", "css", "gh-pages", "gh-actions"
       ]
     },
     {
@@ -107,7 +107,7 @@
         "Display and download the image inside a base64 string."
       ],
       "tags": [
-        "webpack", "javascript"
+        "webpack", "javascript", "css", "gh-pages"
       ]
     },
     {
