@@ -8,7 +8,7 @@
         "A funny collection of titles for developers who don't know how to call themselves."
       ],
       "tags": [
-        "webpack", "javascript", "postcss", "gh-pages", "gh-actions"
+        "html", "postcss", "javascript", "webpack", "gh-pages", "gh-actions"
       ]
     },
     {
@@ -78,6 +78,17 @@
       ]
     },
     {
+      "name": "Carta de Demissão",
+      "slug": "cartadedemissao",
+      "url": "https://cartadedemissao.com",
+      "description": [
+        "A website that helps you build your resignation letter (in portuguese)."
+      ],
+      "tags": [
+        "react", "styled-components", "gh-pages", "gh-actions"
+      ]
+    },
+    {
       "name": "Cidades do Paraná",
       "slug": "cidades-do-parana",
       "url": "https://jlozovei.github.io/cidades-do-parana",
@@ -107,7 +118,7 @@
         "Display and download the image inside a base64 string."
       ],
       "tags": [
-        "webpack", "javascript", "css", "gh-pages"
+        "html", "css", "javascript", "webpack", "gh-pages"
       ]
     },
     {
